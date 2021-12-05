@@ -1,0 +1,147 @@
+.cockpit {
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  width: 195px;
+  height: 195px;
+  border-radius: 100px 40px 50px 50px;
+  background-color: #208b3f;
+}
+.cockpit::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  left: -25px;
+  width: 170px;
+  height: 170px;
+  border-radius: 40px;
+  background-color: #302e37;
+}
+.cockpit::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -60px;
+  left: -60px;
+  width: 170px;
+  height: 170px;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.tail {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  transform-origin: left center;
+  border-top: 10px solid transparent;
+  border-bottom: 80px solid transparent;
+  border-left: 350px solid #1b9b52;
+  border-bottom-right-radius: 10px;
+  height: 10px;
+}
+.main {
+  position: absolute;
+  left: 130px;
+  top: -10px;
+  width: 40px;
+  height: 20px;
+  background: #302e37;
+}
+.helicopter {
+  position: fixed;
+  animation: bounce 7s infinite; /* adding bounce keyframes with duration 5s and infinite loop */
+  z-index: 999;
+}
+.tail-rotor {
+  width: 150px;
+  height: 150px;
+  border-radius: 400px;
+  position: absolute;
+  top: -79px;
+  left: -79px;
+  z-index: 2;
+  overflow: hidden;
+  background-color: #91889b;
+  opacity: 0.12;
+  /* transform: scaleY(0.075); */
+}
+.rotor {
+  width: 700px;
+  height: 700px;
+  border-radius: 350px;
+  position: absolute;
+  top: -360px;
+  left: -200px;
+  z-index: 2;
+  overflow: hidden;
+  background-color: #a299ab;
+  opacity: 0.12;
+  transform: scaleY(0.075);
+}
+.tail-rotator div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -347px;
+  margin-top: -7px;
+  width: 691px;
+  height: 11px;
+  background-color: #fff;
+}
+.rotator div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -350px;
+  margin-top: -30px;
+  width: 700px;
+  height: 80px;
+  background-color: #fff;
+}
+.tail-rotator div:nth-child(1) {
+  transform: rotate(0deg);
+}
+.rotator div:nth-child(1) {
+  transform: rotate(0deg);
+}
+.tail-rotor div:nth-child(2) {
+  transform: rotate(90deg);
+}
+.rotor div:nth-child(2) {
+  transform: rotate(90deg);
+}
+
+@keyframes bounce {
+  100% {
+    /* transform: translate(0px, -50px) rotate(-15deg); */
+    transform: translate(-1700px, -150px) rotate(-20deg);
+  }
+  0% {
+    /* transform: translate(0px, 50px) rotate(-10deg); */
+    transform: translate(800px, 100px) rotate(0deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.rotator {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 350px;
+  animation: rotate 0.6s linear infinite; /* added rotate @keyframes */
+}
+.tail-rotator {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 32px;
+  animation: rotate 0.6s linear infinite; /* added rotate @keyframes */
+}

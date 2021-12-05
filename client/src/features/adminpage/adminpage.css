@@ -1,0 +1,13 @@
+.admin-page {
+  height: auto;
+}
+.container-ad {
+  display: flex;
+}
+
+.others {
+  max-width: 1400px;
+  flex: 5;
+  background-color: #fff;
+  overflow-y: auto;
+}

@@ -1,0 +1,56 @@
+.createUser {
+  margin: 30px;
+}
+
+.createUserIcon {
+  margin-right: 10px;
+  font-size: 30px !important;
+  margin-bottom: 5px;
+}
+
+.createUserFormItem {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.createUserItem {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.createUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(241, 18, 18);
+}
+
+.createUserItem > input {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: honeydew;
+}
+
+.createUserButton {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: teal;
+  color: white;
+  padding: 5px;
+  margin: auto;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.createUserButton:hover {
+  color: black;
+  background-color: yellow;
+}

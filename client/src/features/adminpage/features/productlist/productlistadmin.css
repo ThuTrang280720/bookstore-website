@@ -1,0 +1,145 @@
+.productList {
+  flex: 4;
+}
+.productListAdmin {
+  margin: 20px;
+}
+.productListTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-weight: 800 !important;
+  justify-content: space-between;
+}
+.productAddButton {
+  height: 35px;
+  width: 100px;
+  background: teal;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.productAddButton:hover {
+  background-color: yellow;
+  color: black;
+}
+.productsList {
+  max-width: 1300px;
+  /* max-height: 600px;
+  height: 500px; */
+  /* overflow: auto; */
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: lightgrey;
+}
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+
+  border-radius: 5px;
+}
+.productListProduct {
+  width: "100%";
+  border-collapse: collapse;
+}
+.productListProduct td,
+.productListProduct th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 145px;
+  white-space: pre-line;
+}
+.productListProduct tr:nth-child(even) {
+  background: #fafafa;
+}
+.productListProduct th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  color: black;
+}
+.productListProduct tbody tr:hover {
+  cursor: pointer;
+  background-color: honeydew;
+  box-shadow: 0 0 30px rgb(197, 195, 195);
+  transition: ease-in 0.1s;
+}
+.productListProduct i {
+  cursor: pointer;
+}
+
+.productListImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.productListDelete {
+  border: none;
+  color: red;
+  cursor: pointer;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.productListEdit {
+  border: none;
+  color: black;
+  cursor: pointer;
+  align-items: center;
+  font-size: 30px;
+}
+.col_action_productlist {
+  text-align: center !important;
+  justify-content: space-between !important;
+}
+.col_title_productlist {
+  width: 600px !important;
+}
+.col_sold_productlist {
+  width: 70px !important;
+}
+.col_price_productlist {
+  width: 70px !important;
+}
+.col_publisher_productlist {
+  width: 270px !important;
+}
+.col_id_productlist {
+  width: 90px !important;
+}
+.col_author_productlist {
+  width: 290px !important;
+}
+.productListTitle .multiselect span {
+  margin-right: 10px;
+  padding: 5px;
+}
+.productListTitle .multiselect input {
+  padding: 5px;
+}
+.productListTitle .productDelAllButton {
+  height: 35px;
+  width: 100px;
+  background: rgb(199, 81, 2);
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  margin-right: 10px;
+}
+.productListTitle .productDelAllButton:hover {
+  background-color: rgb(255, 51, 0);
+  color: black;
+}
+.productListAdmin .pagination-container {
+  margin: 20px 0;
+  text-align: right;
+}

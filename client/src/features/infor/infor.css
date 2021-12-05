@@ -1,0 +1,9 @@
+.container_infor {
+  display: flex;
+}
+
+.page_infor {
+  flex: 4;
+  background-color: honeydew;
+  padding: 20px;
+}
