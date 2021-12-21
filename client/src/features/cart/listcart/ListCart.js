@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalState } from "../../../GlobalState";
-import { Delete } from "@material-ui/icons";
+import { Delete } from "@mui/icons-material";
 import "./listcart.css";
 import Loading from "../../../utils/loading/Loading";
 import axiosClient from "../../../api/ClientAxiosApi";

@@ -51,7 +51,7 @@
 .helicopter {
   position: fixed;
   animation: bounce 7s infinite; /* adding bounce keyframes with duration 5s and infinite loop */
-  z-index: 999;
+  z-index: 9999;
 }
 .tail-rotor {
   width: 150px;
@@ -115,10 +115,11 @@
 @keyframes bounce {
   100% {
     /* transform: translate(0px, -50px) rotate(-15deg); */
-    transform: translate(-1700px, -150px) rotate(-20deg);
+    transform: translate(-1800px, -150px) rotate(-20deg);
   }
   0% {
     /* transform: translate(0px, 50px) rotate(-10deg); */
+
     transform: translate(800px, 100px) rotate(0deg);
   }
 }
@@ -144,4 +145,19 @@
   height: 150px;
   border-radius: 32px;
   animation: rotate 0.6s linear infinite; /* added rotate @keyframes */
+}
+.tail .tail-title {
+  position: absolute;
+  top: -3px;
+  left: -290px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.tail img {
+  position: absolute;
+  top: 17px;
+  left: -290px;
+  width: 40px;
 }

@@ -60,11 +60,16 @@ export default function Bill({ orderOwner }) {
   const tranSuccess = async (payment) => {
     console.log(payment);
     const option = { type: "Paypal payment", paywith: "default" };
-
-    const { paymentID, address, name } = payment;
+    const { paymentID, address } = payment;
     await axiosClient.post(
       "/api/order",
-      { cart, orderID: paymentID, address, name, option },
+      {
+        cart,
+        orderID: paymentID,
+        address: orderInfo.address ? orderInfo.address : address,
+        name: orderInfo.name ? orderInfo.name : address.recipient_name,
+        option,
+      },
       {
         headers: { Authorization: token },
       }
@@ -75,7 +80,6 @@ export default function Bill({ orderOwner }) {
     toast.success("You have successfully paid. Thanks you for trust us");
     toast.info("Let check order in infomation");
     setCallback(!callback);
-    setOnHeli(!onHeli);
   };
 
   const updateCart = async (cart) => {
@@ -131,7 +135,7 @@ export default function Bill({ orderOwner }) {
           setCallback(!callback);
           toast.success("You have successfully paid. Thanks you for trust us");
           toast.info("Let check order in infomation");
-        }, 7000);
+        }, 5000);
         closeModal();
       }
     } catch (err) {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./footers.css";
 import { Link } from "react-router-dom";
-import { Mail, PhoneInTalk } from "@material-ui/icons";
+import { Mail, PhoneInTalk } from "@mui/icons-material";
 import IconFB from "./images/facebook.png";
 import IconGG from "./images/google-plus.png";
 import IconINS from "./images/instagram.png";
@@ -69,9 +69,15 @@ export default function Footers() {
                   <li>
                     <Link to="/policies">Chính sách mua hàng</Link>
                   </li>
-                  <li>Chính sách bảo mật</li>
-                  <li>Chính sách khách sỉ</li>
-                  <li>Chính sách đổi - trả</li>
+                  <li>
+                    <Link to="/policies">Chính sách bảo mật</Link>
+                  </li>
+                  <li>
+                    <Link to="/policies">Chính sách khách sỉ</Link>
+                  </li>
+                  <li>
+                    <Link to="/policies">Chính sách đổi - trả</Link>
+                  </li>
                 </ul>
               </div>
             </div>

@@ -4,7 +4,7 @@ import Pic1 from "./images/1.jpg";
 import Pic2 from "./images/2.jpg";
 import Pic3 from "./images/4.jpg";
 import { Link } from "react-router-dom";
-import { Person, SupervisedUserCircle } from "@material-ui/icons";
+import { Person, SupervisedUserCircle } from "@mui/icons-material";
 
 export default function About() {
   return (

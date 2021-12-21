@@ -5,7 +5,7 @@ import Loading from "../../../../utils/loading/Loading";
 import "./productlistadmin.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { DeleteForever, Edit, Search } from "@material-ui/icons";
+import { DeleteForever, Edit, Search } from "@mui/icons-material";
 import { Pagination } from "@mui/material";
 import axiosClient from "../../../../api/ClientAxiosApi";
 

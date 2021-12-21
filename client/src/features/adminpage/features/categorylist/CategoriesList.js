@@ -5,7 +5,7 @@ import "./categorieslist.css";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import withLoading from "../../../../utils/loading/withLoading";
-import { DeleteForever, Edit } from "@material-ui/icons";
+import { DeleteForever, Edit } from "@mui/icons-material";
 import dateFormat from "dateformat";
 import Modal from "react-modal";
 

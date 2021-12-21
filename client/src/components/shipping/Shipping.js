@@ -1,5 +1,5 @@
 import React from "react";
-import { LocalShipping, Payment } from "@material-ui/icons";
+import { LocalShipping, Payment } from "@mui/icons-material";
 import { PublishedWithChanges } from "@mui/icons-material";
 import "./shipping.css";
 

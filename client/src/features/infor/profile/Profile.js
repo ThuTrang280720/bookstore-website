@@ -3,7 +3,7 @@ import "./profile.css";
 import { GlobalState } from "../../../GlobalState";
 import axiosClient from "../../../api/ClientAxiosApi";
 import dateFormat from "dateformat";
-import { AccountCircle, PermIdentity, Settings } from "@material-ui/icons";
+import { AccountCircle, PermIdentity, Settings } from "@mui/icons-material";
 
 export default function Profile() {
   const state = useContext(GlobalState);

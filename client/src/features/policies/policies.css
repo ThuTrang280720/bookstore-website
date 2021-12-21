@@ -1,0 +1,49 @@
+.policies-page .page-pages-view .breadcrumbs-wap {
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+}
+.policies-page .mainbox-title {
+  text-align: center;
+}
+.policies-page .main-policies {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px;
+  background-color: #fff;
+  font-family: "Montserrat-Light" !important;
+}
+.policies-page .sidebar-policies {
+  padding: 5px;
+  flex: 1;
+}
+.policies-page .content-policies {
+  padding: 5px;
+  flex: 4;
+}
+.policies-page p {
+  font-size: 17px;
+}
+.policies-page li a {
+  text-decoration: honeydew;
+  font-size: 16px;
+  color: blue;
+}
+.policies-page .content-policies span {
+  font-size: 27px;
+  color: rgb(97, 190, 97);
+}
+.policies-page .sidebar-policies span {
+  color: #464646;
+  float: left;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.policies-page .sidebar-policies .mainbox2-body {
+  float: left;
+  font-size: 15px;
+  line-height: 26px;
+  width: 100%;
+  margin-left: 7px;
+}

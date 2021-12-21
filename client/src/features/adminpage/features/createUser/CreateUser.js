@@ -2,7 +2,7 @@ import "./createuser.css";
 import React, { useState, useContext } from "react";
 import axiosClient from "../../../../api/ClientAxiosApi";
 import { GlobalState } from "../../../../GlobalState";
-import { AddCircle } from "@material-ui/icons";
+import { AddCircle } from "@mui/icons-material";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useHistory } from "react-router";

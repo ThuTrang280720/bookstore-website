@@ -9,7 +9,7 @@ import {
   NotificationImportantOutlined,
   SearchOutlined,
   ShoppingCart,
-} from "@material-ui/icons";
+} from "@mui/icons-material";
 import ListIcon from "@mui/icons-material/List";
 import Logo from "./images/logo.png";
 import Modal from "react-modal";

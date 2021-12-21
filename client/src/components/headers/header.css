@@ -870,6 +870,7 @@ header .navbar {
   background: inherit;
   margin-top: 5px;
   color: #121212;
+  outline: none;
 }
 .search_box button:hover {
   color: orange;

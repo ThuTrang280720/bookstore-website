@@ -1,4 +1,4 @@
-import { AccountCircle, PermIdentity, Settings } from "@material-ui/icons";
+import { AccountCircle, PermIdentity, Settings } from "@mui/icons-material";
 import React, { useContext, useState, useEffect } from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";

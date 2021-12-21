@@ -16,7 +16,7 @@ export default function SidebarWidget() {
   const [categories] = state.categoriesApi.categories;
   const [, setCategory] = state.productsApi.category;
   const [, setPage] = state.productsApi.page;
-  const [result] = state.productsApi.result;
+  //const [result] = state.productsApi.result;
   const [search, setSearch] = state.productsApi.search;
   const [startPrice, setStartPrice] = state.productsApi.startPrice;
   const [endPrice, setEndPrice] = state.productsApi.endPrice;
@@ -30,9 +30,7 @@ export default function SidebarWidget() {
     "Tuổi Trẻ",
     "Hoá Học",
   ]);
-  hisSearch.unshift(
-    search && search !== " " && result.length > 0 ? search : null
-  );
+  hisSearch.unshift(search && search !== " " ? search : null);
   function unique(arr) {
     return Array.from(new Set(arr)); //
   }

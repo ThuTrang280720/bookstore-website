@@ -26,10 +26,8 @@ const orderCtrl = {
     try {
       const user = await Users.findById(req.user.id).select("name email");
       if (!user) return res.status(400).json({ msg: "User does not exist" });
-
       const { cart, orderID, address, name, option } = req.body;
       const { _id, email } = user;
-
       const newOrder = new Orders({
         user_id: _id,
         name,

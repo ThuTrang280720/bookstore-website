@@ -1,4 +1,4 @@
-import { AddShoppingCart } from "@material-ui/icons";
+import { AddShoppingCart } from "@mui/icons-material";
 import { Rating } from "@mui/material";
 import React, { useContext, useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";

@@ -3,7 +3,7 @@ import "./userlist.css";
 import { GlobalState } from "../../../../GlobalState";
 
 import Loading from "../../../../utils/loading/Loading";
-import { DeleteForever, Edit, Search } from "@material-ui/icons";
+import { DeleteForever, Edit, Search } from "@mui/icons-material";
 import { Pagination } from "@mui/material";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";

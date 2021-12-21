@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./sidebar.css";
-import { AccountCircle, BorderColor, CalendarToday } from "@material-ui/icons";
+import { AccountCircle, BorderColor, CalendarToday } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { GlobalState } from "../../../GlobalState";
 export default function SideBar() {

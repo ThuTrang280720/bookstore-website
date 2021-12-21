@@ -6,7 +6,7 @@ import { useHistory } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axiosClient from "../../../../api/ClientAxiosApi";
-import { Search } from "@material-ui/icons";
+import { Search } from "@mui/icons-material";
 import { Pagination } from "@mui/material";
 import Loading from "../../../../utils/loading/Loading";
 
