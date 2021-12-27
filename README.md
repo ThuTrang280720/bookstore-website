@@ -17,12 +17,12 @@ Tiểu Luận Chuyên Ngành
 
 ### Đã hoàn thành
 
-- Cơ sở dữ liệu Users, Products, Categories
-- Đăng nhập, đăng kí (email), đăng xuất
-- Lưu trữ đăng nhập, xem thông tin cá nhân, quên mật khẩu
-- Phân quyền Admin và các chức năng với tài khoản, sản phẩm
-- Upload sản phẩm lên cloud, load sản phẩm, chức năng giỏ hàng
-- Chức năng thanh toán, danh mục sản phẩm, hoá đơn sản phẩm
-- Lọc sản phẩm theo danh mục, thời gian, số lượng đã bán, giá tiền. Tìm kiếm theo tên sản phẩm
-- Các tính năng lọc và tìm kiếm tương tự ở Admin đối với tài khoản, sản phẩm, đơn hàng, danh mục
-- Giao diện các tính năng trên
+- Cơ sở dữ liệu Users, Products, Categories.
+- Đăng nhập, đăng kí (email), đăng xuất.
+- Lưu trữ đăng nhập, xem thông tin cá nhân, quên mật khẩu.
+- Phân quyền Admin và các chức năng với tài khoản, sản phẩm.
+- Upload sản phẩm lên cloud, load sản phẩm, chức năng giỏ hàng.
+- Chức năng thanh toán, danh mục sản phẩm, đơn hàng.
+- Lọc sản phẩm theo danh mục, thời gian, số lượng đã bán, giá tiền. Tìm kiếm theo tên sản phẩm.
+- Các tính năng lọc và tìm kiếm tương tự ở Admin đối với tài khoản, sản phẩm, đơn hàng, danh mục.
+- Giao diện các tính năng trên.
