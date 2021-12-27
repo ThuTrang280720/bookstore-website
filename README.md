@@ -8,6 +8,8 @@ Tiểu Luận Chuyên Ngành
 - FE: react-router-dom, axios, @material-ui/icons @material-ui/core dateformat, react-google-login, react-express-paypal-checkout
 - Công cụ hỗ trợ API Postman
 - Cloud sử dụng: MongoDB, Cloudinary, Develop Console Google
+### Cách cài đặt và sử dụng
+- Cài đặt các package cần thiết: npm install
 - Run client: npm start
 - Run server: npm run dev
 
