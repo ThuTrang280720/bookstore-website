@@ -8,8 +8,15 @@ Tiểu Luận Chuyên Ngành
 - FE: react-router-dom, axios, @material-ui/icons @material-ui/core dateformat, react-google-login, react-express-paypal-checkout
 - Công cụ hỗ trợ API Postman
 - Cloud sử dụng: MongoDB, Cloudinary, Develop Console Google
-- Run client: npm start
-- Run server: npm run dev
+
+## Các bước cài đặt ứng dụng:
+- Bước 1: Clone hoặc download file zip project từ github
+- Bước 2: Giải nén tệp mới tải về
+- Bước 3: Mở folder với công cụ 
+- Bước 4: Chọn “Terminal” trên thanh taskbar, sau đó chọn “New Terminal” (Hoặc đơn giản là bấm tổ hợp phím Ctrl + `)
+- Bước 5: Sau khi cửa sổ Command Line tích hợp hiện ra, chạy lệnh “npm install” để cập nhật những thư viện, package còn thiếu trên máy mà server-side cần
+- Bước 6: Run client: npm start
+- Bước 7: Run server: npm run dev
 
 ## Update Tuần 15 (06/12)
 
